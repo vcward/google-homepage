@@ -1,0 +1,222 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body, a, p {
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+#view {
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    opacity: 0.85;
+    text-decoration: underline;
+}
+
+#view {
+    overflow-y: hidden;
+    width: 100%;
+}
+
+header {
+    font-size: 13px;
+    position: fixed;
+    top: 16px;
+    white-space: nowrap;
+    width: 100%;
+}
+
+header .header-left {
+    display: inline-block;
+    margin: 7px 0 0 10px;
+}
+
+header .header-right {
+    float: right;
+    margin: 7px 30px 0 0;
+}
+
+header .header-right a {
+    padding-right: 15px;
+}
+
+header .header-left a {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+}
+
+.g-products {
+    background-image: url('google-icons.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    display: inline-block;
+    opacity: .55;
+}
+
+.sign-in-button {
+    cursor: default;
+    color: #FFF;
+    border: 1px solid #4285F4;
+    font-weight: bold;
+    outline: none;
+    background: #4285F4;
+    background: -moz-linear-gradient(top, #4387fd, #4683ea);
+    background: linear-gradient(top, #4387fd, #4683ea);
+    padding: 0 12px;
+    line-height: 28px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.sign-in-button:hover, .sign-in-button:focus {
+    text-decoration: none;
+    opacity: 1;
+}
+
+footer {
+    display: block;
+    bottom: 0;
+    font-size: 10pt;
+    position: absolute;
+    background: #F2F2F2;
+    border-top: 1px solid #E4E4E4;
+    line-height: 40px;
+    min-width: 980px;
+    width: 100%;
+}
+
+.footer-left {
+    display: inline-block;
+    margin-left: 30px;
+    white-space: nowrap;
+}
+
+.footer-right {
+    margin-right: 30px;
+    float: right;
+    white-space: nowrap;
+}
+
+.footer-left a, .footer-right a {
+    color: #5F6368;
+    padding-left: 27px;
+}
+
+main {
+    padding-bottom: 35px;
+}
+
+main #logo {
+    height: 233px;
+    margin-top: 89px;
+}
+
+main #logo img {
+    width: 272px;
+    height: 92px;
+    padding-top: 109px;
+}
+
+#input-container {
+    display: flex;
+    border: 1px solid #DFE1E5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+}
+
+#input-container:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(233, 225, 229, 0);
+}
+
+.inner-container {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 20px;
+}
+
+.inner-container-2 {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.input-div {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+}
+
+.input-box {
+    display: flex;
+    flex: 100%;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    margin-top: -37px;
+}
+
+.input-div, .input-box {
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+}
+
+#search-buttons {
+    height: 70px;
+    padding-top: 18px;
+    width: 487px;
+}
+
+.search-button {
+    background-image: -moz-linear-gradient(top, #F5F5F5, #F1F1F1);
+    -moz-border-radius: 2px;
+    -moz-user-select: none;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    height: 36px;
+    line-height: 27px;
+}
+
+.search-button:hover {
+    background-image: -moz-linear-gradient(top, #F8F8F8, #F1F1F1);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #F8F8F8;
+    background-image: linear-gradient(top, #F8F8F8, #F1F1F1);
+    background-image: -o-linear-gradient(top, #F8F8F8, #F1F1F1);
+    border: 1px solid #C6C6C6;
+    color: #222;
+
+}
